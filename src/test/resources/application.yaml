@@ -1,0 +1,10 @@
+spring:
+  ai:
+    anthropic:
+      api-key: test-key
+
+incident:
+  assistant:
+    max-input-length: 8000
+    llm:
+      max-attempts: 3
